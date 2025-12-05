@@ -2,18 +2,18 @@
 
 ## Скриншоты работы интерактивных элементов
 1. Вкладки с переключением контента  
-![Вкладки](screenshots/tabs.png)
+<img width="740" height="122" alt="image" src="https://github.com/user-attachments/assets/f4f26343-9f61-4d3a-bd71-1eb5f87e55e0" />
+
 
 2. Плавная прокрутка страницы  
-![Прокрутка](screenshots/scroll.png)
+<img width="1270" height="495" alt="image" src="https://github.com/user-attachments/assets/8d26d34a-6a01-4acb-96e3-38196e8167a4" />
+
 
 3. Блок с динамичной цитатой  
-![Цитата](screenshots/quote.png)
+<img width="1286" height="586" alt="image" src="https://github.com/user-attachments/assets/f602ee26-5761-441d-a7c8-0024cf04678e" />
 
 4. Секция с перетягиваемыми элементами и календарь  
-![Drag & Drop и Datepicker](screenshots/drag-datepicker.png)
-
-> *Примечание:* замените пути к скриншотам на свои реальные.
+<img width="1286" height="586" alt="image" src="https://github.com/user-attachments/assets/4b3dce22-c9c5-44de-b89d-3a6d809b374f" />
 
 ---
 
