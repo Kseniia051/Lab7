@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Лабораторная 7 — jQuery</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jqueryui.css">
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Лабораторная работа №7 — jQuery</h1>
+    <nav>
+      <a href="#section-1">Главная</a>
+      <a href="#section-2">Особенности</a>
+      <a href="#section-3">Контакты</a>
+    </nav>
+  </header>
+
+  <!-- Секции -->
+  <section id="section-1" class="section">
+  <h2>Главная</h2>
+  <p>Добро пожаловать на интерактивную страницу лабораторной работы №7! Здесь вы увидите:</p>
+  <ul>
+    <li>Вкладки с переключением контента</li>
+    <li>Плавную прокрутку по странице</li>
+    <li>Динамическую загрузку цитат</li>
+    <li>Элементы, которые можно перетаскивать и календарь</li>
+  </ul>
+</section>
+
+
+  <section id="section-2" class="section">
+    <h2>Особенности</h2>
+    <p>Вкладки показывают, как менять контент без перезагрузки:</p>
+    <div class="tabs-container">
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="tab-1">О нас</button>
+        <button class="tab-btn" data-tab="tab-2">Отзывы</button>
+        <button class="tab-btn" data-tab="tab-3">Контакты</button>
+      </div>
+      <div class="tab-content active" id="tab-1">
+        <h3>О нас</h3>
+        <p>Мы изучаем современные технологии веб-разработки и создаем учебные проекты для студентов.</p>
+      </div>
+      <div class="tab-content" id="tab-2">
+        <h3>Отзывы</h3>
+        <p>Студенты отмечают простоту, наглядность и удобство лабораторных работ.</p>
+      </div>
+      <div class="tab-content" id="tab-3">
+        <h3>Контакты</h3>
+        <p>Email: example@example.com<br>Телефон: +7 (000) 123-45-67</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-3" class="section">
+    <h2>Динамическая цитата и интерактив</h2>
+    <div class="ajax-section">
+      <button id="loadQuote">Загрузить цитату</button>
+      <blockquote id="quote">
+        <p>Нажмите кнопку, чтобы получить цитату.</p>
+        <cite>...</cite>
+      </blockquote>
+    </div>
+
+    <div id="draggable" class="ui-widget-content">
+      <p>Перетащи меня</p>
+    </div>
+    <input type="text" id="datepicker" placeholder="Выберите дату">
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Лабораторная работа №7. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
